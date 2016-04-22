@@ -35,7 +35,7 @@ Okta SAML example with Spring Security
 
 # One time application setup
 
-1. Generate a keystore and key in `src/main/resources/saml`:
+1. Generate a keystore and key in `src/main/resources/saml` with password `colombia-password`:
 
 `keytool -genkey -v -keystore colombia.jks -alias colombia -keyalg RSA -keysize 2048 -validity 10000`
 
